@@ -24,3 +24,10 @@ div_tool = FunctionTool.from_defaults(fn=div)
 
 tools_list = [add_tool, sub_tool, mult_tool, div_tool]\
 
+agent = ReActAgent.from_tools(
+    tools_list,
+    llm=llm,
+    verbose=True
+)
+
+response = agent.chat('What is 20-(5+6)? Use the various tools provided to solve the problem')
