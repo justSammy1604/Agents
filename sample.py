@@ -31,3 +31,4 @@ agent = ReActAgent.from_tools(
 )
 
 response = agent.chat('What is 20-(5+6)? Use the various tools provided to solve the problem')
+print(response)
