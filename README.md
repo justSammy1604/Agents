@@ -1,2 +1,3 @@
-# GraphRAG
-Python code to demostrate RAG by making use of a Graph DB.
+# AGENTS
+Code snippets of the application of agents using LlamaIndex and LanngGraph
+
