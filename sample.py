@@ -19,7 +19,7 @@ def div(a:float, b:float) -> float:
 
 add_tool = FunctionTool.from_defaults(fn=add)
 sub_tool = FunctionTool.from_defaults(fn=sub)
-mult_tool = FunctionTool.from_defaults(fn=mult)
+mult_tool = FunctionTool.from_defaults(fn=mult) 
 div_tool = FunctionTool.from_defaults(fn=div)
 
 tools_list = [add_tool, sub_tool, mult_tool, div_tool]\
