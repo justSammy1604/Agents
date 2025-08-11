@@ -4,7 +4,7 @@ from llama_index.core.agent import ReActAgent
 from llama_index.core.tools import FunctionTool
 
 llm = Cohere(model='command', api_key=API_KEY_C) 
-
+ 
 def mult(a:float, b:float) -> float:
   return a*b
 
